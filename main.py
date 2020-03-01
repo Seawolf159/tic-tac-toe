@@ -198,7 +198,8 @@ def main(main_menu):
     # ------------
     # "seven" | "eight" | "nine"
     # place_marker() sets the values as one of ["X", "O"] when a move has been 
-    # made. TODO: update these comments to reflect what the (45, 45) is doing.
+    # made. TODO: update these comments to reflect what the second item in the 
+    # list (0, 0)etc. is doing.
     board = {
         1: [False, (0, 0)],
         2: [False, (110, 0)],
@@ -224,7 +225,7 @@ def main(main_menu):
     # Loads an image of "an O" symbol
     p2 = Player("O", load_image("player2.png"))
 
-    # TODO: make this so the computer player can be "X" or "O"
+    # TODO: remake this so the computer player can be "X" or "O"
     # initiate the computer player
     p3 = ComputerPlayer("X", load_image("player1.png"))
 
