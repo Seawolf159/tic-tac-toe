@@ -1,5 +1,7 @@
 """Basic Tic-Tac-Toe game."""
 
+__version__ = "1"
+
 import copy
 import os
 import random
