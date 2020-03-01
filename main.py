@@ -198,8 +198,9 @@ def main(main_menu):
     # ------------
     # "seven" | "eight" | "nine"
     # place_marker() sets the values as one of ["X", "O"] when a move has been 
-    # made. TODO: update these comments to reflect what the second item in the 
-    # list (0, 0)etc. is doing.
+    # made. 
+    # the (0, 0) part in [False, (0, 0)] is the top left position of the square
+    # in pixels. This is only used for placing the computer moves on the board.
     board = {
         1: [False, (0, 0)],
         2: [False, (110, 0)],
